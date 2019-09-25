@@ -1,5 +1,6 @@
 # video
-WeChat开放平台相关
+WeChat开放平台,三方API
+
 
 # 微信授权登陆(OAuth2.0)
 # JWT校验
