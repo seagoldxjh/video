@@ -51,7 +51,7 @@ public class WeChatController {
 
         String callbackUrl = URLEncoder.encode(redirectUrl,"GBK"); //进行编码
 
-        String qrcodeUrl = String.format(weChatConfig.getOpenQrcodeUrl(),weChatConfig.getOpenAppid(),callbackUrl,accessPage);
+        String qrcodeUrl = String.format(WeChatConfig.getOpenQrcodeUrl(),weChatConfig.getOpenAppid(),callbackUrl,accessPage);
 
         return JsonData.buildSuccess(qrcodeUrl);
     }
